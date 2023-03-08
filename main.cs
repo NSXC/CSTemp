@@ -15,13 +15,6 @@ namespace tempwallet
 {
     class Program
     {
-       
-
-
-
-    
-           
-
         static void Main(string[] args)
         {
             AnsiConsole.Write(
@@ -29,9 +22,6 @@ namespace tempwallet
                     .Centered()
                     .Color(new Color(242, 169, 0))
             );
-
-        
-            
             var network = Network.Main;
             var privateKey = new Key();
             var publicKey = privateKey.PubKey;
