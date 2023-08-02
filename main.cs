@@ -17,11 +17,7 @@ namespace tempwallet
     {
         static void Main(string[] args)
         {
-            AnsiConsole.Write(
-                new FigletText("CSTemp")
-                    .Centered()
-                    .Color(new Color(242, 169, 0))
-            );
+
             var network = Network.Main;
             var privateKey = new Key();
             var publicKey = privateKey.PubKey;
